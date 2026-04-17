@@ -25,7 +25,7 @@ Analyze spatial transcriptomics and immunohistochemistry data from two ovarian t
 ## **Methods**
 Tumor samples from two patients with treatment-resistant ovarian cancer were analyzed using immunohistochemistry and spatial transcriptomics (10X Genomics Visium).
 
-### **Data Processing Pipeline - Spatial Transcriptomic**
+## **Data Processing Pipeline - Spatial Transcriptomic**
 Raw reads were processed using the Space Ranger pipeline. Downstream analysis was performed using python (scanpy)
 
 ### 1. Raw Data Processing
@@ -86,4 +86,4 @@ Finally, the location of cells expressing marker genes that were found different
 
 ### 7. Advanced Analysis
 
-### **Data Processing Pipeline - Multiplexed Immunohistochemistry**
+## **Data Processing Pipeline - Multiplexed Immunohistochemistry**
