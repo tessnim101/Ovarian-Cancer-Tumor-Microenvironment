@@ -82,6 +82,8 @@ Differences in gene expression between myeloid cells located in the tumor center
 Spatial localization of cells (center versus periphery) was determined based on their spatial coordinates. Differential gene expression analysis (DGEA) was then performed using a curated set of macrophage-associated genes selected from the literature and related to macrophage activation states.
 
 ### 6. Marker gene visualizations
-Finally, the location of cells expressing marker genes that were found differentially expressed were visualized
+Finally, the location of cells expressing marker genes that were found differentially expressed were visualized.
+
+#### 7. **Advanced Analysis**
 
 ### **Data Processing Pipeline - Multiplexed Immunohistochemistry**
