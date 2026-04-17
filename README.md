@@ -96,6 +96,12 @@ Finally, the location of cells expressing marker genes that were found different
 Notebook: [`Plot_Markers.ipynb`](Spatial_Transcriptomics_Scripts/Plot_Markers.ipynb)
 
 ### 7. Advanced Analysis
+Further spatial analysis was performed to quantify how tumor, stromal, and immune cell types are spatially organized and interact within the tissue. It:
+
+- Computes cell–cell neighborhood enrichment on a 2D grid, estimating for each bin the local composition of surrounding cell types within a fixed radius, and aggregating these into a cell type × cell type interaction matrix that summarizes enriched or depleted local interactions.
+- Uses Squidpy co-occurrence statistics to calculate distance-dependent co-localization curves for selected reference cell types (e.g. tumor-, fibroblast-, and myeloid-centered neighborhoods).
+- Applies Ripley’s L function to assess spatial clustering of each cell type across scales (clustered vs random vs regular patterns).
+- Computes Moran’s I for selected marker genes from the differential expression analysis to detect spatially autocorrelated expression patterns, and visualizes key genes (e.g. CD9, CD55).
 
 Notebook: [`Advanced_Analysis.ipynb`](Spatial_Transcriptomics_Scripts/Advanced_Analysis.ipynb)
 
