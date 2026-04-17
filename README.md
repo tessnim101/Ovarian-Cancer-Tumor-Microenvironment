@@ -105,7 +105,36 @@ Further spatial analysis was performed to quantify how tumor, stromal, and immun
 
 Notebook: [`Advanced_Analysis.ipynb`](Spatial_Transcriptomics_Scripts/Advanced_Analysis.ipynb)
 
-## **Data Processing Pipeline - Multiplexed Immunohistochemistry**
+## **Data Processing Pipeline - Multiplexed Immunohistochemistry** Image Analysis and Figure Generation
+
+Histopathological image analysis was performed using a combination of **QuPath** and **Python-based pipelines** to ensure accurate, reproducible, and high-throughput quantification.
+
+### 1. QuPath Workflow
+
+* Whole slide images (WSIs) were imported into QuPath for visualization and annotation.
+* Regions of interest (ROIs) were manually and/or semi-automatically defined.
+* Cell detection and classification algorithms were applied to identify relevant cellular populations.
+* Quantitative features (e.g., cell counts, staining intensity, spatial distribution) were extracted.
+
+### 2. Python Processing
+
+* Exported data from QuPath were further processed using Python.
+* Libraries such as `pandas`, `numpy`, and `matplotlib` were used for:
+
+  * Data cleaning and preprocessing
+  * Statistical analysis
+  * Visualization and figure generation
+
+### 3. Figures
+
+* Final figures were generated to illustrate:
+
+  * Tumor microenvironment composition
+  * Spatial relationships between cell populations
+  * Quantitative comparisons across samples
+
+All analysis steps were designed to ensure reproducibility and consistency across datasets.
+
 
 ## **Notes**
 
