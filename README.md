@@ -58,7 +58,7 @@ Downstream analyses were performed using Python (Scanpy). Preprocessing steps in
 - Cluster visualization using UMAP
 - Clusters annotation was based on known marker genes obtained from litterature (https://www.nature.com/articles/s41586-022-05496-1)
 
-### 4. Deconvolution (Cell type annotation)
+### 4. Deconvolution
 Cell type composition for each spot was inferred using known marker genes obtained from litterature (https://www.nature.com/articles/s41586-022-05496-1). A score was calculated for each spot for the following cell types:
 - Fibroblasts
 - Myeloid cells
@@ -74,7 +74,7 @@ Estimation of cell-type proportions per spot was performed using the following s
 
 mean(marker_genes) - mean(non_marker_genes)
 
-The cell type for each spot was then assigned based on the highest score across all evaluated cell-type signatures
+The main cell type for each spot was then assigned based on the highest score across all evaluated cell-type signatures
 
 ### 5. Differential gene expression analysis
 Differences in gene expression between myeloid cells located in the tumor center and macrophages in the tumor periphery were investigated.
