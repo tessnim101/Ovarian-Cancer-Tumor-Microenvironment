@@ -2,14 +2,15 @@
 This repository contains code originally developed during the Lémanic 2026 Life Sciences Hackathon to investigate the spatial organization of the ovarian cancer tumor microenvironment using spatial transcriptomics and multiplex immunohistochemistry data.
 
 ## **Contributions**
--**Vasilis Dionellis**: Project lead
--**Ophélie Rutschmann**: Spatial transcriptomics analysis (Spaceranger, preprocessing, deconvolution, DGEA, visualizations)
--**Nafi Anna Dramé**: Spatial transcriptomics analysis (cluster annotation, visualizations)
--**Tessnim Bechrifa**: Spatial transcriptomics analysis (cluster annotation, advanced analysis, visualizations)
--**Cynthia Rabay**: Immunohistochemistry data analysis
--**Camilla Trugenberger**: Biological interpretation and presentation
--**Emma Castelli**: Biological interpretation and presentation
--**Julien Vujevic Martinez**: Biological interpretation and presentation
+
+- **Vasilis Dionellis**: Project lead
+- **Ophélie Rutschmann**: Spatial transcriptomics analysis (Spaceranger, preprocessing, deconvolution, DGEA, visualizations)
+- **Nafi Anna Dramé**: Spatial transcriptomics analysis (cluster annotation, visualizations)
+- **Tessnim Bechrifa**: Spatial transcriptomics analysis (cluster annotation, advanced analysis, visualizations)
+- **Cynthia Rabay**: Immunohistochemistry data analysis
+- **Camilla Trugenberger**: Biological interpretation and presentation
+- **Emma Castelli**: Biological interpretation and presentation
+- **Julien Vujevic Martinez**: Biological interpretation and presentation
 
 ## **Introduction**
 High-Grade Serous Ovarian Cancer (HGSOC) is the most aggressive form of ovarian cancer and is characterized by its dissemination within the peritoneal cavity, leading to peritoneal carcinomatosis. This mode of spread contributes to poor prognosis, treatment resistance, and limited therapeutic efficacy.
