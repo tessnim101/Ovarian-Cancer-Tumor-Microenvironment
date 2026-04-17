@@ -27,6 +27,7 @@ Tumor samples from two patients with treatment-resistant ovarian cancer were ana
 
 ## **Data Processing Pipeline - Spatial Transcriptomic**
 Raw reads were processed using the Space Ranger pipeline. Downstream analysis was performed using python (scanpy)
+All jupyter notebooks are stored in the folder Spatial_Transcriptomics_Scripts.
 
 ### 1. Raw Data Processing
 Raw FASTQ files generated from spatial transcriptomics experiments were processed using the 10x Genomics Space Ranger pipeline to perform alignment, filtering, barcode assignment, and UMI counting.
@@ -54,9 +55,13 @@ Downstream analyses were performed using Python (Scanpy). Preprocessing steps in
 - Normalization of gene expression counts
 - Log-transformation
 
+Notebook: [`Preprocessing.ipynb`](Spatial_Transcriptomics_Scripts/Preprocessing.ipynb)
+
 ### 3. Cluster annotation
 - Cluster visualization using UMAP
 - Clusters annotation was based on known marker genes obtained from litterature (https://www.nature.com/articles/s41586-022-05496-1)
+
+Notebook: [`Clustering_and_UMAP.ipynb`](Spatial_Transcriptomics_Scripts/Clustering_and_UMAP.ipynb)
 
 ### 4. Deconvolution
 Cell type composition for each spot was inferred using known marker genes obtained from litterature (https://www.nature.com/articles/s41586-022-05496-1). A score was calculated for each spot for the following cell types:
@@ -87,3 +92,8 @@ Finally, the location of cells expressing marker genes that were found different
 ### 7. Advanced Analysis
 
 ## **Data Processing Pipeline - Multiplexed Immunohistochemistry**
+
+## **Notes**
+
+- Data is not included in the repository
+- Paths need to be adapted to your local environment
