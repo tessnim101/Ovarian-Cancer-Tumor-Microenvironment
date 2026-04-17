@@ -84,6 +84,6 @@ Spatial localization of cells (center versus periphery) was determined based on 
 ### 6. Marker gene visualizations
 Finally, the location of cells expressing marker genes that were found differentially expressed were visualized.
 
-#### 7. **Advanced Analysis**
+### 7. Advanced Analysis
 
 ### **Data Processing Pipeline - Multiplexed Immunohistochemistry**
