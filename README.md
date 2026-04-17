@@ -81,15 +81,23 @@ mean(marker_genes) - mean(non_marker_genes)
 
 The main cell type for each spot was then assigned based on the highest score across all evaluated cell-type signatures
 
+Notebook: [`Deconvolution.ipynb`](Spatial_Transcriptomics_Scripts/Deconvolution.ipynb)
+
 ### 5. Differential gene expression analysis
 Differences in gene expression between myeloid cells located in the tumor center and macrophages in the tumor periphery were investigated.
 
 Spatial localization of cells (center versus periphery) was determined based on their spatial coordinates. Differential gene expression analysis (DGEA) was then performed using a curated set of macrophage-associated genes selected from the literature and related to macrophage activation states.
 
+Notebook: [`Myeloid_DGEA.ipynb`](Spatial_Transcriptomics_Scripts/Myeloid_DGEA.ipynb)
+
 ### 6. Marker gene visualizations
 Finally, the location of cells expressing marker genes that were found differentially expressed were visualized.
 
+Notebook: [`Plot_Markers.ipynb`](Spatial_Transcriptomics_Scripts/Plot_Markers.ipynb)
+
 ### 7. Advanced Analysis
+
+Notebook: [`Advanced_Analysis.ipynb`](Spatial_Transcriptomics_Scripts/Advanced_Analysis.ipynb)
 
 ## **Data Processing Pipeline - Multiplexed Immunohistochemistry**
 
